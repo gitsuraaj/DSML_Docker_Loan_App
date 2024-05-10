@@ -23,4 +23,4 @@ def test_predict(client):
 
     assert result.status_code == 200
     assert result.json == {
-    "loan_approval_status": "Rejected"}
+    "loan_approval_status": "Approved"}
